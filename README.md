@@ -1,2 +1,2 @@
 # Radar
-Code for a radar including an ultrasonic sensor, a position servo motor, a joystick, and LEDs. 
+Code for a radar including an ultrasonic sensor, a position servo motor, a joystick, and LEDs. The joystick controls the servo on which the ultrasonic sensor is mounted. Using only the x-axis, the servo moves either to the left or to the right based on its position. When the ultrasonic sensor detects something close enough, a red LED on the Arduino lights up, indicating that the object is too close. A green LED lights up when the opposite is true.
